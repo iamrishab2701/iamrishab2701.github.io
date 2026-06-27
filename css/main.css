@@ -341,7 +341,8 @@ h5 {
 }
 
 .service-card {
-  max-width: 300px;
+  max-width: 250px;
+  flex: 1 1 200px;
 }
 
 .service-card-img {
