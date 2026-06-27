@@ -1,6 +1,7 @@
 const form = () => {
-  const contactForm = document.querySelector(".contactForm"),
-    responseMessage = document.querySelector(".response");
+  const contactForm = document.querySelector(".contactForm");
+  if (!contactForm) return; // ponytail: contact section removed, skip silently
+  const responseMessage = document.querySelector(".response");
 
   contactForm.addEventListener("submit", async (e) => {
     e.preventDefault();
