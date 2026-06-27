@@ -551,6 +551,12 @@ h5 {
   margin-top: 20px;
 }
 
+/* Contact */
+.contact {
+  padding: 5rem 0;
+  background-color: var(--white-color);
+}
+
 /* Footer */
 .footer {
   background-color: var(--primary-accent);
